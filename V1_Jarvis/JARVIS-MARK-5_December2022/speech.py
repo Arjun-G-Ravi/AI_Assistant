@@ -2,6 +2,7 @@ import pyttsx3
 import datetime
 import speech_recognition as sr 
 engine = pyttsx3.init('sapi5') 
+
 def speak(audio):        #also prints the words
      print('JARVIS: ' + audio) 
      engine.say(audio) 

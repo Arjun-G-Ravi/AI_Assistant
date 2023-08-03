@@ -51,43 +51,43 @@ while again.upper()=="Y":
     print("                 -----")
 
 
-#TOP SECRET                                                                                                                          $$$$$$$$$$$$$$$$$$$$$$$
-    if choice1=="1":
-        password=input("Enter password:")            #I am inevitable
-        Tony_Stark="Ironman_forever"                                 # And................. I am Ironman
-        virus=open("9446707052.txt",'r')
-        _blastoise=virus
-        thanos=_blastoise.read()
-        if password==thanos:               #imported password from file to increase security
-            speech.speak("Acess granted")
-            speech.speeck("Welcome")
-            speech.speech(name)
-            speech.speak("Info on the Python")
-            print("_______________________________________________________________")
-            print()
-            f=open("Pyth.txt",'r')          #import file into this___________read on the program\\\
-            print(f.read())
-            print()
-            print("________________________________________________________________")
-            time.sleep(3)
-            print()
-        else:
-            speech.speak("PASSWORD INCORRECT!!!!!!!!!!!!!!!!!!!")
-            time.sleep(0.3)
-            speech.speech("\n Aborrrting....................")
-            speech.speech("\n Aborrting....................")
-            speech.speech("\n Aborting....................")
-            time.sleep(0.3)
-            speech.speak("CLOSING PROGRAM ............................")
-            time.sleep(0.3)
-            speech.speak("Press Enter key.....")
-            input()
-            sys.exit()
+# #TOP SECRET                                                                                                                          $$$$$$$$$$$$$$$$$$$$$$$
+#     if choice1=="1":
+#         password=input("Enter password:")            #I am inevitable
+#         Tony_Stark="Ironman_forever"                                 # And................. I am Ironman
+#         virus=open("9446707052.txt",'r')
+#         _blastoise=virus
+#         thanos=_blastoise.read()
+#         if password==thanos:               #imported password from file to increase security
+#             speech.speak("Acess granted")
+#             speech.speeck("Welcome")
+#             speech.speech(name)
+#             speech.speak("Info on the Python")
+#             print("_______________________________________________________________")
+#             print()
+#             f=open("Pyth.txt",'r')          #import file into this___________read on the program\\\
+#             print(f.read())
+#             print()
+#             print("________________________________________________________________")
+#             time.sleep(3)
+#             print()
+#         else:
+#             speech.speak("PASSWORD INCORRECT!!!!!!!!!!!!!!!!!!!")
+#             time.sleep(0.3)
+#             speech.speech("\n Aborrrting....................")
+#             speech.speech("\n Aborrting....................")
+#             speech.speech("\n Aborting....................")
+#             time.sleep(0.3)
+#             speech.speak("CLOSING PROGRAM ............................")
+#             time.sleep(0.3)
+#             speech.speak("Press Enter key.....")
+#             input()
+#             sys.exit()
 
 
 #INTERACTIVE MODE
                     
-    elif choice1=="3":
+    if choice1=="3":
         print("**")
         print("The full access to the program requires an active internet connection")
         print("**")
